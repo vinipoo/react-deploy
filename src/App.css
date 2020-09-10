@@ -2,9 +2,17 @@
   text-align: center;
 }
 
+body {
+  background-color: #dddddd;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.App img {
+  width: 200px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -32,6 +40,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
